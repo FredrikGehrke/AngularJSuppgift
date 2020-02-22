@@ -662,8 +662,8 @@ nav.stroke ul li a:hover:after {
     font-weight: bold;
     text-align: center;
 }
-/* HRHJ */
-#socials {
+
+.socials {
     padding-top: 3rem;
     padding-left: 0;
 }
@@ -682,6 +682,79 @@ nav.stroke ul li a:hover:after {
 .Twitter {
     margin-left: -0.3rem;
 }
+
+/* VD section start */
+
+.CEO {
+    margin-left: 3rem;
+    box-shadow: 4px 10px 11px -1px rgba(0,0,0,0.75);
+}
+
+.CEO-kontakt-sida {
+    margin-left: 14rem;
+    box-shadow: 4px 10px 11px -1px rgba(0,0,0,0.75);
+}
+
+/* bgBilar start */
+.Rubrik-bgBilar {
+    color: var(--orange);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.BoxOmOss-p-bgBilar {
+    flex: 2;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    padding-bottom: 5.6rem;
+}
+
+.bgBilar-text {
+    width: 88%;
+}
+/* bgBilar end */
+
+.CEO-image {
+    background-color: rgba(151, 151, 151, 0.329);
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.FredGerk-img {
+    border-radius: 40px;
+}
+
+.CEO-description {
+    padding-top: 1rem;
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.CEO-description h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.CEO-description h6 {
+    margin-bottom: -0.5rem;
+}
+
+.hr-Fred {
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+/* VD section end */
 
 /* OM OSS END */
 

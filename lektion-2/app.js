@@ -44,19 +44,19 @@ app.controller("hemController", function($scope) {
 
 .controller("bgBilarController", function($scope) {
     $scope.bgBilar = [
-        { image: "p-img.png", title: "Köp din drömbil idag!", text: "Lorem ipsum dolor sit amet.....Lorem ipsum dolor sit amet....." },
+        { title: "Begagnade Bilar", paragraph: "Vi måste få in lite skit bilar först!"},
     ]
 })
 
 .controller("kontaktController", function($scope) {
     $scope.kontakt = [
-        { image: "p-img.png", title: "Köp din drömbil idag!", text: "Lorem ipsum dolor sit amet.....Lorem ipsum dolor sit amet....." },
+        { adress: "Pilgatan 2, Västerås"},
     ]
 })
 
 .controller("omOssController", function($scope) {
     $scope.omOss = [
-        { title: "Köp din drömbil idag",  text: "!", mRubrik: "Vår senast tillkomna bil!"},
+        { title: "Våran Historia", paragraph: "Vi kommer såklart att fortsätta att lura på kunderna bilar! "},
     ]
 })
 

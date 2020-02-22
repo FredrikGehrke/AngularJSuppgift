@@ -1,10 +1,27 @@
-
-<div class="container d-flex">
-    <div ng-repeat="item in bgBilar" class="d-flex border" style="width: 30%">
-        <img src="images/{{ item.image }}" alt="" style="width: auto; height: 150px;">
-        <div>
-            <h6>{{ item.title }}</h6>
-            <p>{{ item.text }}</p>
+<div class="bg-img1 first-layout" ng-repeat="item in bgBilar">
+    <div class="overlayOmOss">
+        <div class="containerOmOss">
+            <div class="carBox">
+                <div class="BoxOmOss">
+                    <h1 class="OmOss-Rubrik">{{ item.title }}</h1>
+                    <div class="d-flex">
+                        <div class="col-BarOmOss">
+                            <button class="sideBarOmOss"></button>
+                        </div>
+                        <div class="bgBilar-text">
+                            <h1 class="Rubrik-bgBilar">Kommer snart!</h1>
+                            <p class="BoxOmOss-p-bgBilar"> {{ item.paragraph }}
+                            <br>
+                            </p>
+                            <div class="col footer-p socials">
+                                <p><i class="fab fa-facebook-f iconsOmOss Facebook"></i>Facebook</p>
+                                <p><i class="fab fa-twitter iconsOmOss Twitter"></i>Twitter</p>
+                                <p><i class="fab fa-instagram iconsOmOss"></i>Instagram</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

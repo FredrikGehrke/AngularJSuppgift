@@ -10,21 +10,32 @@
                             <button class="sideBarOmOss"></button>
                         </div>
                         <div>
-                            <h1 class="Rubriker">Våran Historia</h1>
+                            <h1 class="Rubriker">{{ item.title }}</h1>
                             <p class="BoxOmOss-p">ExoticCars grundades år 1978 i Tyskland av Fred Gerk med målet <br>
                                 att htta den rätta bilen för varje kund. 2010 kom ExoticCars till <br>
                                 Västerås, Sverige. Ända sedan dess har vi sålt sålt sålt och tjänat <br>
                                 fett med cash. Kunderna vet egentligen inte om att de betalar <br>
                                 ett sjukt överpris, men jag klagar inte! <br>
                                 <br>
-                                Vi kom,mer såklart att fortsätta att lura på kunderna bilar! <br>
+                                {{ item.paragraph }} <br>
                                 Vi ses snart!
                             <br>
                             </p>
-                            <div class="col footer-p" id="socials">
+                            <div class="col footer-p socials">
                                 <p><i class="fab fa-facebook-f iconsOmOss Facebook"></i>Facebook</p>
                                 <p><i class="fab fa-twitter iconsOmOss Twitter"></i>Twitter</p>
                                 <p><i class="fab fa-instagram iconsOmOss"></i>Instagram</p>
+                            </div>
+                        </div>
+                        <div class="CEO">
+                            <div class="CEO-image">
+                                <img class="FredGerk-img" src="/lektion-2/images/CEO.png" alt="Image of CEO Fred Gerk" width="220" height="320">
+                            </div>
+                            <div class="CEO-description">
+                                <h3>Fred Gerk</h3>
+                                <h6>VD</h6>
+                                <hr class="hr-Fred">
+                                <h5><strong>freddo@ec.se</strong></h5>
                             </div>
                         </div>
                     </div>
