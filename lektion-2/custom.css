@@ -1,0 +1,715 @@
+/* CSS Google Font  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700'); 
+/* CSS Google Font end  */
+
+/* Nollställer alla kanter */
+:root {
+    --ownPurple: #8f05c5;
+    --ownGray: #3d3d3d; 
+    --lightGray: #acacaca8;
+    --brandColor: rgb(184, 4, 4);  
+    --navbarColor: rgba(94, 93, 93, 0.486);
+    --orange: rgb(255, 102, 0);
+    --footerColor: rgba(0, 0, 0, 0.959);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+.logo {
+    background-image: url(/lektion-2/images/ext.png) !important;
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height:7vh;
+    margin-top: -0.5rem;
+}
+
+/* START NAVBAR */
+
+.own-mt {
+    margin-top: 0;
+}
+
+.navbar {
+    background-color: var(--navbarColor) !important;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 5px 0px rgba(255, 255, 255, 0.158);
+}
+
+.navbar-brand {
+    margin-right: 9rem;
+}
+
+#nav-container {
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sok-icon {
+    color: var(--orange);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.FB {
+    margin-left: 0.3rem;
+}
+
+.TW {
+    margin-left: -0.2rem;
+}
+
+.icons {
+    color: var(--orange);
+    font-weight: 600;
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    margin-right: 2rem;
+    font-weight: 800;
+    color: white !important;
+    letter-spacing: 0.05rem;
+    font-size: 20px;
+}
+/* FIXA NAVBAR >Rrepsonsiv */
+
+.nav-link:hover {
+    color: var(--orange) !important;
+    transition: 0.3s ease;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ffffff !important;
+    border: 1px solid var(--orange) !important;
+    border-radius: 0.25rem;
+}
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--orange);
+    height: 2.8px;
+}
+nav.stroke ul li a:hover:after {
+    width: 93%;
+    -webkit-box-shadow: 0px 4px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    transition: all 0.6s;
+    opacity: 90%;
+
+}
+
+/* END NAVBAR */
+
+/* START FIRST SECTION */
+
+.bg-img1 {
+    background-image: url(/lektion-2/images/porsche.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    margin-top: -6rem;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.459);
+    padding-left: 13rem;
+    padding-bottom: 10rem;
+}
+
+.overlayAll {
+    background: rgba(0, 0, 0, 0.459);
+
+}
+
+.first-section {
+    margin-bottom: 0rem !important; 
+    box-shadow: 0px 4px 5px 0px rgba(51, 51, 51, 0.247);
+}
+
+.title {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size:50px;
+    font-weight: 800;
+    padding-top: 6.5rem;
+}
+
+.first-layout {
+    text-align: left;
+}
+
+#nyhetsRow {
+    height: 66vh;
+    padding-left: 0rem;
+}
+
+.getMails {
+    width: 100%;
+}
+
+.nyhetsbrev {
+    color: white;
+    font-size: 38px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.05rem;
+}
+
+#emailAdress {
+    color: white;
+    border: 2.5px solid var(--orange);
+    border-radius: 4px;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    font-size: 24px;
+    width: 250px;
+    letter-spacing: 0.05rem;
+    background: transparent;
+}
+
+#emailAdress::placeholder,
+#emailAdress:focus {
+    color: white;
+    outline: none;
+}
+
+#BtnOK {
+    background-color: var(--orange);
+    width: 70px;
+    color: white;
+    font-size: 20px;
+    margin-left: -0.5rem;
+    outline: none;
+}
+
+/* Mercedes First Page */
+
+.bg-img2 {
+    background-image: url(/lektion-2/images/road.jpg);
+    background-size: cover;
+}
+
+.overlay-second-section {
+    background-color: rgba(34, 34, 34, 0.925);
+    box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+    padding-bottom: 5rem;
+}
+
+.col-Bar {
+    max-width: 0.1%;
+    margin-left: 10rem;
+    padding-right: 0;
+}
+
+#sideBar {
+    background-color: var(--orange);
+    margin-top: 5.5rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    box-shadow: 1px 6px 25px 1px rgba(0, 0, 0, 0.877);
+    height: 330px;
+    width: 8px;
+}
+
+#mTextCol {
+    margin-top: 4.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mercedesCol {
+    margin-top: 7rem;
+    margin-right: 8rem;
+    padding-left: 0;
+}
+
+#mercedesRow {
+    box-shadow: 0px -7px 30px -1px rgba(0,0,0,0.75);
+}
+
+.mercedes-ImgFirst {
+    margin-top: -2rem;
+    background-image: url(/lektion-2/images/mercedes.png);
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 30vh !important;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.Rubriker {
+    color: var(--orange);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+#mP {
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+}
+
+/* Btn */
+.mBtn{
+    cursor: hand;
+    text-align: center;
+    border-radius:10px;
+    position: relative;
+    overflow: hidden!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: var(--orange);
+    z-index:10;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    font-weight: 600;
+    padding: 0.5rem 3.5rem;
+    box-shadow: 0px 11px 17px -2px rgba(0,0,0,0.75);
+    border: 0px;
+}
+.mBtn:hover{
+    color: white;
+}
+.mBtn::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: rgb(255, 102, 0);
+    position: absolute;
+	-ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+} 
+.mBtn::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #0e0d0d;
+    position: absolute;
+	-ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 0;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+    -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    transition: all .4s cubic-bezier(.2,.95,.57,.99);
+}
+.mBtn:hover::before, .mBtn:hover::before{
+	opacity:1;
+	width: 116%;
+}
+.mBtn:hover::after, .mBtn:hover::after{
+	opacity:1;
+	width: 120%;
+}
+
+
+/* END FIRST SECTION */
+
+
+/* FOOTER */
+
+.row-7 {
+    margin-right: 0rem;
+    margin-left: 3rem !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.col {
+    margin-right: 2rem;
+    color: white;
+    margin-top: -0.2rem;
+}
+
+.navbar-brand-footer {
+    margin-top: -1.05rem;
+    cursor: pointer;
+    margin-left: 2.4rem;
+}
+
+#logo-text {
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 3.3rem;
+    margin-top: -1.5rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: -0.5rem;
+}
+
+#logo-text p {
+    margin-bottom: 0;
+    margin-top: -0.2rem;
+}
+
+.footer-p {
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0;
+    letter-spacing: 0.05rem;
+    margin-top: 1rem;
+}
+
+.footer-p p{
+    margin-top: -1rem;
+}
+
+.footer-p p:hover {
+    cursor: pointer;
+    color: var(--orange);
+    transition: 0.3s ease;
+}
+
+.own-jumbotron7 {
+    background-color: var(--footerColor);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px -4px 5px -1px rgba(0,0,0,0.75);
+}
+
+#copyright {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* FOOTER */
+
+/* Våra Bilar Start*/
+
+.bgRoad {
+    height: 100vh;
+}
+
+.overlayRoad {
+    background-color: rgba(34, 34, 34, 0.849);
+    height: 100vh;
+}
+
+.carInfo {
+    background-color: rgba(34, 34, 34, 0.849);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0px 7px 13px 3px rgba(0, 0, 0, 0.979);
+    position: relative;
+}
+
+.cars-p {
+    flex: 2;
+    color: white;
+    font-size: 20.4px;
+    letter-spacing: 0.05rem;
+}
+
+.pris-div {
+    cursor: none;
+    outline: none;
+    border: 0px;
+    width: 50%;
+    text-align: center;
+    border-radius:10px;
+    background-color: var(--orange);
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0.2rem 1.5rem;
+    box-shadow: 0px 11px 17px -2px rgba(0,0,0,0.75);
+    float: right;
+    margin-top: -2rem;
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 1;
+    left: 1;
+    right: 0;
+}
+
+.pris-div-right-side {
+    cursor: none;
+    outline: none;
+    border: 0px;
+    width: 50%;
+    text-align: center;
+    border-radius:10px;
+    background-color: var(--orange);
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0.2rem 1.5rem;
+    box-shadow: 0px 11px 17px -2px rgba(0,0,0,0.75);
+    float: right;
+    margin-top: -2rem;
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 1;
+    left: 1;
+    right: 0;
+}
+
+#lambo-img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#mercedes-Img {
+    margin-top: 2rem;
+    margin-bottom: 1.1rem;
+}
+
+#ferrari-img {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#mclaren-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* orange sideBar */
+.col-BarCars {
+    max-width: 0.1%;
+    padding-right: 1rem;
+}
+
+.sideBarCars {
+    background-color: var(--orange);
+    border: 0.5px solid rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    box-shadow: 1px 6px 25px 1px rgba(0, 0, 0, 0.877);
+    height: 280px;
+    width: 8px;
+}
+
+
+/* CARS */
+
+.container2 {
+    width: 1300px;
+    margin: 20px auto;
+    padding-top: 13rem;
+    display: grid;
+    grid-template-rows: repeat(2, 280px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 150px; 
+    grid-row-gap: 500px; 
+}
+
+.item {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(121, 121, 121, 0.507);
+    /* filter: blur(3px); */
+}
+
+/* Våra Bilar End */
+
+
+
+/* Media Queries */
+
+@media (max-width: 1200px) { 
+
+    .col-Bar {
+        margin-left: 2rem;
+    }
+
+    #sideBar {
+        height: 460px;
+    }
+
+    #mercedesCol {
+        margin-top: 10rem;
+        margin-right: 1rem;
+    }
+    
+    .mercedes-ImgFirst {
+        width: 75%;
+        height: 35vh !important;
+    }
+
+    .title {
+        margin-left: -8rem;
+    }
+    
+    #nyhetsRow {
+        height: 66vh;
+        margin-left: -8rem;
+    }
+
+    #sokICON {
+        display: none;
+    }
+
+    /* CarPage */
+    .bgRoad {
+        height: 150vh;
+    }
+
+    .overlayRoad {
+        background-color: rgba(34, 34, 34, 0.849);
+        height: 150vh;
+    }
+}
+
+/* OM OSS START */
+
+.containerOmOss {
+    width: 1200px;
+    margin: 20px auto;
+    padding-top: 9rem;
+}
+
+.col-BarOmOss {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.sideBarOmOss {
+    background-color: var(--orange);
+    border: 0.5px solid rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    box-shadow: 1px 6px 25px 1px rgba(0, 0, 0, 0.877);
+    height: 480px;
+    width: 10px;
+}
+
+.overlayOmOss {
+    background: rgba(0, 0, 0, 0.459);
+    height: 90vh;
+}
+
+.BoxOmOss {
+    background-color: rgba(34, 34, 34, 0.849);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0px 7px 13px 3px rgba(0, 0, 0, 0.979);
+    position: relative;
+    height: 65vh;
+}
+
+.BoxOmOss-p {
+    flex: 2;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+}
+
+.OmOss-Rubrik {
+    color: var(--orange);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-align: center;
+}
+/* HRHJ */
+#socials {
+    padding-top: 3rem;
+    padding-left: 0;
+}
+
+.iconsOmOss {
+    color: var(--orange);
+    font-weight: 500;
+    margin-right: 0.8rem;
+    font-size: 2rem;
+}
+
+.Facebook {
+    margin-left: 0.5rem;
+}
+
+.Twitter {
+    margin-left: -0.3rem;
+}
+
+/* OM OSS END */
+
+/* MQ för footer */
+
+@media (max-width: 1535px) { 
+
+    .footer-p {
+        font-size: 20px;
+    }
+
+    #logo-text {
+        font-weight: 700;
+        font-size: 20px;
+        padding-left: 3.3rem;
+        margin-top: -1.5rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: -0.5rem;
+    }
+
+    #exotictext-footer {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 0.8rem;
+        margin-top: 2.2rem;
+    }
+
+}
+
+
+

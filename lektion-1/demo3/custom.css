@@ -1,0 +1,23 @@
+/* .my-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+#test {
+
+    margin-right: auto;
+    margin-left: 10rem;
+}
+
+.navbar-brand {
+    margin-right: 15rem;
+}
+
+.nav-link:active {
+    color: rgb(255, 0, 0) !important;
+}
+
+.nav-link:

@@ -1,0 +1,48 @@
+
+<div class="bg-img1 first-layout" ng-repeat="item in hem">
+    <div class="overlay">
+        <div>
+            <h1 class="title">{{ item.title }}<span style='color: #ff6600'>{{ item.text }}</span></h1>
+        </div>
+        <div class="row align-items-end" id="nyhetsRow">
+            <div class="getMails">
+                <h3 class="nyhetsbrev">Nyhetsbrev</h3>
+                <div class="d-flex">
+                    <input id="emailAdress" type="text" placeholder="Email Adress">
+                    <button id="BtnOK" class="btn ">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-img2" id="senastBil" ng-repeat="item in hem">
+    <div class="row overlay-second-section" id="mercedesRow">
+        <div class="col col-Bar">
+            <button id="sideBar"></button>
+        </div>
+        <div class="col" id="mTextCol">
+            <h1 class="Rubriker">{{ item.mRubrik }}</h1>
+            <p id="mP">Mercedes-AMG GT är en sportbil som den tyska <br>
+                biltillverkaren Mercedes-Benz dotterbolag <br>
+                Mercedes-AMG introducerade i september 2014. <br>
+                <br>
+                <strong>Drivmedel</strong> <span style='color: #ff6600'>-</span> Tomatsås <br>
+                <strong>Växellåda</strong> <span style='color: #ff6600'>-</span> Automat <br>
+                <strong>Färg</strong> <span style='color: #ff6600'>-</span> Silver <br>
+                </p>
+                <a href="#!varabilar" class="btn mBtn">Gå till produktsida!</a>
+        </div>
+        <div class="col mercedes-ImgFirst" id="mercedesCol" >
+                <!-- <img id="mercedes-ImgFirst" src="/lektion-2/images/mercedes.png" alt="Mercedes-AMG GT" width="800" height="410"> -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
